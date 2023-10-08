@@ -1,0 +1,64 @@
+.body{
+    margin:0;
+    padding: 0;
+    font-size: 16px;
+}
+.nav {
+   text-align: right;
+}
+.nav a{
+    font-size: 20px;  
+    text-decoration: none;
+   padding: 16px 20px;
+}
+.sign{
+   font-family: 'Times New Roman', Times, serif;
+}
+h1{
+    color: darkblue;
+}
+p{
+    font-size: 20px;
+    text-indent: 50px;
+}
+.img{
+    float:right;
+    
+}
+button{
+    color: white;
+    background-color: blueviolet;
+    max-width: 100x;
+    padding:8px 12px;
+}
+.tab{
+    display: inline-block;
+    margin-left:20px;
+    border-radius: 10px;
+    border: none;
+}
+.img1 img{
+    float: left;
+    margin-top: 0px;
+}
+ .img1 p{
+    text-align: right;
+}
+.img2{
+    float: right;
+
+}
+.menu {
+    width: 200px;
+    height: 50px;
+    position: relative;
+    animation: mymove 5s infinite;
+  }
+#div1 {animation-timing-function: linear;}
+#div2 {animation-timing-function: ease;}
+#div3 {animation-timing-function: ease-out;}
+
+@keyframes mymove {
+  from {left: 0px;}
+  to {left: 300px;}
+}
